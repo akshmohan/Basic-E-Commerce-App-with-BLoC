@@ -7,10 +7,11 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-K
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Home(),
     );
   }
